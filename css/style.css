@@ -113,8 +113,9 @@ body {
   line-height: 34px;
   white-space: nowrap;
   border-radius: 0.2em;
-  font-size: 16px;
+  font-size: 13px;
   color: #FFF;
+  border-radius: 5px;
 }
 .loginBtn:before {
   content: "";
