@@ -3,16 +3,28 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Raleway', sans-serif;
-}
+  font-family: 'Raleway', sans-serif; } 
 body {
-  background-image: url('http://images-cdn.moviepilot.com/image/upload/c_fill,h_794,w_1912/t_mp_quality/hulkbuster-armor-this-is-how-avengers-age-of-ultron-s-hulkbuster-scene-ll-go-jpeg-301706.jpg');
+  background-image: url('http://78waves.com/bg.jpg');
   background-position: cover;
   height: 100%;
   width: 100%;
   overflow-x: hidden;
   overflow-y: hidden;
+} 
+/* sign up page  */ 
+
+canvas {
+  display: block;
+   -moz-opacity:0.2; /* For older FF versions */
+   -khtml-opacity:0.2;
+   opacity:0.2;
+   filter:alpha(opacity=20);
 }
+
+
+
+
 
 .overlay {
   z-index: 1;
